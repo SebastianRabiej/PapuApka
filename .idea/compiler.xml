@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Accounts" />
+        <module name="Orders" />
+        <module name="Shared" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Accounts" target="9" />
+      <module name="Domain" target="9" />
+      <module name="Orders" target="9" />
+      <module name="papuApka" target="9" />
+      <module name="Shared" target="9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
